@@ -1,0 +1,21 @@
+{
+  "name": "PForum",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Užitečnější layout pro pirátské fórum",
+  "browser_action": {
+    "default_icon": "favicon.png",
+    "name": "Otevři layout"
+  },
+  "permissions": [
+
+    "http://forum.pirati.cz/",
+    "https://forum.pirati.cz/"
+  ],
+  "background": { "scripts": ["background.js"] }
+  
+  ,
+  "icons": { "16": "16px_icon.png",
+             "48": "48px_icon.png",
+            "128": "128px_icon.png" }
+}
